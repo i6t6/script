@@ -15,24 +15,26 @@ function tologin()
     zm.value=a5;
     zm3.value=a5;
     zm4.value=a3[1];
-    a5.select();
+    var zm5 = document.getElementById("i2");
+
+    zm5.select();
     // 执行浏览器复制命令
     document.execCommand("copy");
 }
-function tocopy()
-{
-    var input = document.getElementById("i1");
-    // 选中文本
-    input.select();
-    // 执行浏览器复制命令
-    document.execCommand("copy");
-
-}function tocopy1()
-{
-    var input = document.getElementById("i2");
-    // 选中文本
-    input.select();
-    // 执行浏览器复制命令
-    document.execCommand("copy");
-
-}
+// function tocopy()
+// {
+//     var input = document.getElementById("i1");
+//     // 选中文本
+//     input.select();
+//     // 执行浏览器复制命令
+//     document.execCommand("copy");
+//
+// }function tocopy1()
+// {
+//     var input = document.getElementById("i2");
+//     // 选中文本
+//     input.select();
+//     // 执行浏览器复制命令
+//     document.execCommand("copy");
+//
+// }
