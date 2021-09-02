@@ -4,7 +4,7 @@ function tologin()
     var zm2 = document.getElementById("i2");
     var zm3 = document.querySelector("#username");
     var zm4 = document.querySelector("#password");
-    zm4.setAttribute("type","text");
+//     zm4.setAttribute("type","text");
     // var a3 = a2.match(/\u53d1\u8d27/)
     var a3 = zm.value.split(/\u5bc6\u7801\uff1a/)
     var a4 = a3[0].split(/\u8d26\u53f7\uff1a/)
