@@ -1,0 +1,29 @@
+function tologin()
+{
+    var zm = document.getElementById("i1");
+    var zm2 = document.getElementById("i2");
+
+    // var a3 = a2.match(/\u53d1\u8d27/)
+    var a3 = zm.value.split(/\u5bc6\u7801\uff1a/)
+    var a4 = a3[0].split(/\u8d26\u53f7\uff1a/)
+    var a5=a4[1].match(/\d+/)
+    zm2.value=a3[1];
+    zm.value=a5;
+}
+function tocopy()
+{
+    var input = document.getElementById("i1");
+    // 选中文本
+    input.select();
+    // 执行浏览器复制命令
+    document.execCommand("copy");
+
+}function tocopy1()
+{
+    var input = document.getElementById("i2");
+    // 选中文本
+    input.select();
+    // 执行浏览器复制命令
+    document.execCommand("copy");
+
+}
