@@ -13,7 +13,7 @@ function tologin()
     //账号
     zm.value=a5;
     zm3.value=a5;
-    
+    zm4.value="";
     var zm5 = document.querySelector("#i2");
 
     zm5.select();
