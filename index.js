@@ -15,7 +15,7 @@ function tologin()
     zm.value=a5;
     zm3.value=a5;
     zm4.value=a3[1];
-    zm.select();
+    a5.select();
     // 执行浏览器复制命令
     document.execCommand("copy");
 }
