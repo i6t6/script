@@ -15,6 +15,7 @@ function tologin()
     zm3.value=a5;
     console.log("执行命令")
     zm4.value=""+a3[1];
+    document.querySelector("#loginbutton").click()
     var zm5 = document.querySelector("#i2");
     zm5.select();
     // 执行浏览器复制命令
