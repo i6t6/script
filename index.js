@@ -13,10 +13,8 @@ function tologin()
     //账号
     zm.value=a5;
     zm3.value=a5;
-    zm4.value="";
+    zm4.value=""+a3[1];
     var zm5 = document.querySelector("#i2");
-var aff =  document.querySelector("#password");
-    console.log(aff);
     zm5.select();
     // 执行浏览器复制命令
     document.execCommand("copy");
