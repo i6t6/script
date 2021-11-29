@@ -1,7 +1,7 @@
 function tologin()
 {
     var zm = document.getElementById("i1");
-    var zm2 = document.getElementById("i2");
+    
     var zm3 = document.querySelector("#username");
     var zm4 = document.querySelector("#password");
 
@@ -9,17 +9,14 @@ function tologin()
     var a4 = a3[0].split(/\u8d26\u53f7\uff1a/)
     var a5=a4[1].match(/\d+/)
     //密码
-    zm2.value=a3[1];
+    
     //账号
     zm.value=a5;
     zm3.value=a5;
     console.log("执行命令")
     zm4.value=""+a3[1];
     document.querySelector("#loginbutton").click()
-    var zm5 = document.querySelector("#i2");
-    zm5.select();
-    // 执行浏览器复制命令
-    document.execCommand("copy");
+   
 
 }
 function tocopy()
