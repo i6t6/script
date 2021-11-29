@@ -13,6 +13,7 @@ function tologin()
     //账号
     zm.value=a5;
     zm3.value=a5;
+    console.log("执行命令")
     zm4.value=""+a3[1];
     var zm5 = document.querySelector("#i2");
     zm5.select();
