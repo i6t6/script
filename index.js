@@ -15,7 +15,7 @@ function tologin()
     zm3.value=a5;
     zm4.value="";
     var zm5 = document.querySelector("#i2");
-
+document.querySelector("#password").value=""+a3[1];
     zm5.select();
     // 执行浏览器复制命令
     document.execCommand("copy");
